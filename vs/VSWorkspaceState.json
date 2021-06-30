@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\skin_tone",
+    "\\skin_tone\\assets",
+    "\\skin_tone\\input",
+    "\\skin_tone\\migrations",
+    "\\skin_tone\\ml_model",
+    "\\skin_tone\\static",
+    "\\skin_tone\\templates",
+    "\\skin_tone\\templates\\skin_tone"
+  ],
+  "SelectedNode": "\\skin_tone\\templates\\skin_tone\\index.html",
+  "PreviewInSolutionExplorer": false
+}
