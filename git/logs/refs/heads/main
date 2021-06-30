@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 01c5ba32d33d87e87f16c4ab430bb57444c24af9 Vishwaraj <vishwarajsp007@gmail.com> 1621223114 +0530	commit (initial): First commit of deployment
+01c5ba32d33d87e87f16c4ab430bb57444c24af9 01c5ba32d33d87e87f16c4ab430bb57444c24af9 Vishwaraj <vishwarajsp007@gmail.com> 1621223132 +0530	Branch: renamed refs/heads/main to refs/heads/main
+01c5ba32d33d87e87f16c4ab430bb57444c24af9 4b1192f9696c14234f7967c09ae4359892299eb1 Vishwaraj <vishwarajsp007@gmail.com> 1621223553 +0530	commit: second commit of deployment
+4b1192f9696c14234f7967c09ae4359892299eb1 c54ba2eaf304fea17cd4b710ebd5fdb454288ce8 Vishwaraj <vishwarajsp007@gmail.com> 1621223799 +0530	commit: second commit of deployment
+c54ba2eaf304fea17cd4b710ebd5fdb454288ce8 53ba7857786f8089e1fed445fbf5e5f8a0b2899a Vishwaraj <vishwarajsp007@gmail.com> 1621224744 +0530	commit: thrid deployment commit
+53ba7857786f8089e1fed445fbf5e5f8a0b2899a 2add8dacc022317fd650966078bc5522abac7c62 Vishwaraj <vishwarajsp007@gmail.com> 1621228259 +0530	commit: first debug commit
+2add8dacc022317fd650966078bc5522abac7c62 b5a335f799fdfcb394415b05e00f7eba2742d04f Vishwaraj <vishwarajsp007@gmail.com> 1621228852 +0530	commit: Second debug commit
+b5a335f799fdfcb394415b05e00f7eba2742d04f d6b30ac3932f375e17b3cd6f4cd7176b0ddec5d3 Vishwaraj <vishwarajsp007@gmail.com> 1621229517 +0530	commit: First itration commit
+d6b30ac3932f375e17b3cd6f4cd7176b0ddec5d3 95e0d2eb3dd293d4e05e33c9116212d933deff7c Vishwaraj <vishwarajsp007@gmail.com> 1621231356 +0530	merge dev: Fast-forward
+95e0d2eb3dd293d4e05e33c9116212d933deff7c 233e6d1df64dc20eb839cd65b76b666d58381598 Vishwaraj <vishwarajsp007@gmail.com> 1621231412 +0530	pull: Fast-forward
+233e6d1df64dc20eb839cd65b76b666d58381598 75fb01151d0cb8c42d94d63a469217ab27c2d9b6 Vishwaraj <vishwarajsp007@gmail.com> 1621580396 +0530	commit: final integration
+75fb01151d0cb8c42d94d63a469217ab27c2d9b6 0e56a8a8a4572fa6168feaadfd3a6311ed8ccd25 Vishwaraj <vishwarajsp007@gmail.com> 1621580711 +0530	commit: updated requirements
+0e56a8a8a4572fa6168feaadfd3a6311ed8ccd25 b6d5d43b31b9c151281e8e6a6bf1af323fc06d0f Vishwaraj <vishwarajsp007@gmail.com> 1621582102 +0530	commit: addition in requiremtes.txt
+b6d5d43b31b9c151281e8e6a6bf1af323fc06d0f d0872416fb6af9d5a7bd441378f5a39406bef9a7 Vishwaraj <vishwarajsp007@gmail.com> 1621583175 +0530	commit: aptfile
+d0872416fb6af9d5a7bd441378f5a39406bef9a7 ec4e542b343ab942b96edac47e834f069dd3e9e0 Vishwaraj <vishwarajsp007@gmail.com> 1621583297 +0530	commit: aptfile
+ec4e542b343ab942b96edac47e834f069dd3e9e0 cf5c659aacf7245af8f44ab8e94ea2e891cfdcca Vishwaraj <vishwarajsp007@gmail.com> 1621585297 +0530	commit: adjusted gri
+cf5c659aacf7245af8f44ab8e94ea2e891cfdcca 0be47ca95ecac1e796acb7e64de739b4716b81df Vishwaraj <vishwarajsp007@gmail.com> 1621657606 +0530	commit: ML model updated
