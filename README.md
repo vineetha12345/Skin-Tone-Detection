@@ -1,1 +1,1 @@
-# Skin-Tone-Detection
+# Skin-Tone
