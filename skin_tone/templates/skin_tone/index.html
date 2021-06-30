@@ -1,0 +1,218 @@
+{% extends 'skin_tone/base.html' %}
+{% load static %}
+
+
+
+{% block title %} Skin Tone {% endblock %}
+
+
+{% block head %}
+
+<style>
+  .btns {
+    color: rgb(144, 33, 167);
+    text-align: center;
+    height: 39px;
+    width: 100px;
+    border: 2px solid rgb(144, 33, 167);
+    padding-top: 1px;
+    border-radius: 10px;
+
+  }
+
+  .btns:hover {
+    background-color: rgb(144, 33, 167);
+    color: white;
+    border: 2px solid white;
+  }
+</style>
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid py-4 mb-5 bg-dark  text-white  "
+  style="background: linear-gradient(to left bottom, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);;">
+  <div class="container">
+    <h2 class="display-5 " style=" font-family: Philosopher; ">HUMAN SKIN TONE DETECTION</h2>
+    <hr>
+    <p class="text-white  my-4" style=" font-family: Philosopher; font-size: 35px">Web portal to detect the
+      skin
+      tone (i.e., Fair, Mild or Dark) from a human
+      face image.</p>
+  </div>
+</div>
+<!--<header style="background-color: rgba(0, 0, 0,0.2);">
+
+  <div id="intro" class="view">
+
+    <div class="">
+
+      <div class="container-fluid d-flex align-items-center justify-content-center h-50">
+
+        <div class="row d-flex justify-content-center text-center ">
+
+          <div class=" col-md-10">
+
+            <h2 class="display-4 font-weight-bold  text-white pt-5 mb-2 h2-clasi">HUMAN SKIN TONE DETECTION</h2>
+
+            <hr class="hr-light">
+
+
+            <p class="text-white  my-4" style=" font-family: Philosopher; font-size: 35px">web portal to detect the
+              skin
+              tone (i.e., Fair, Mild or Dark) from a human
+              face image.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</header> -->
+<section>
+  <div class="banner">
+    <div class="container">
+    <div class="banner-text">
+    <div class="banner-heading">
+    Glad to see you here !
+    </div>
+    <div class="banner-sub-heading">
+    Here goes the secondary heading on SkintoneRecognizier App @verzeoMarch_B17
+    </div>
+    <h2 class="btn btn-info text-dark btn-banner">Wanna know Your SkinTone</h2>
+    <h2 class="btn btn-info text-dark btn-banner">Just Follow some simple Instructions Given Below.</h2>
+    </div>
+    </div>
+  </div>
+  
+</section>
+<div class="jumbotron " style="margin-left: 20px;">
+  <div class="row w-100 ">
+    <div class="col-md-3">
+      <div class="card border-info mx-sm-1 p-4">
+        <div class="text-info text-center mt-3">
+          <h4  style="font-family: Philosopher;color:#D65DB1;">I1</h4>
+        </div>
+        <div class="text-info text-center mt-2">
+          <h3 style="color: #FF9671;">Choose image from system </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-info mx-sm-1 p-4">
+        <div class="text-success text-center mt-3">
+          <h4 style="font-family: Philosopher;color:#D65DB1;">I2</h4>
+        </div>
+        <div class="text-success text-center mt-2">
+          <h3 style="color: #FF9671;">images with wellKnown extensions.</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-info mx-sm-1 p-4">
+        <div class="text-info text-center mt-3">
+          <h4 style="font-family: Philosopher;color:#D65DB1;">I3</h4>
+        </div>
+        <div class="text-info text-center mt-2">
+          <h3 style="color: #FF9671;">Reset if You want to choose any other.</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-info mx-sm-1 p-4">
+        <div class="text-success text-center mt-3">
+          <h4 style="font-family: Philosopher;color:#D65DB1;">I4</h4>
+        </div>
+        <div class="text-success text-center mt-2">
+          <h3 style="color: #FF9671;">Go for skintone detection.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main style="  margin: 50px auto ;">
+
+
+  <div class="container ">
+
+    <section id="features" class="  box shadow-lg p-5 mb-2 d"
+      style=" background-image: linear-gradient(rgb(113, 24, 230),rgb(211, 18, 236));">
+
+
+
+      <div style="margin-top: 50px;">
+        <form action="" method="POST" enctype="multipart/form-data">
+
+          <div class="mb-3">
+            {% csrf_token %}
+            <div class="mb-3">
+              <label for="formFile" class="form-label" name="img" style="color: white;">Choose your file for the skin
+                detection:</label>
+              <input class="form-control" type="file" id="formFile" name="img" required>
+
+
+            </div>
+            <div class="row">
+              <div class="col text-left">
+                <button type="reset" class="btns">Reset</button>
+              </div>
+              <div class="col text-left">
+                <button type="submit" class="btns fa-pull-right">Submit</button>
+              </div>
+            </div>
+
+            <br>
+            {% if messages %}
+            {% for message in messages %}
+
+            <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              {{ message }}
+            </div>
+
+            {% endfor %}
+            {% endif %}
+            <br>
+
+
+        </form>
+      </div>
+      <br>
+
+      <br>
+      {% if image %}
+      <h4 style="color: white;">Preview: </h4>
+      <div class=" d-flex justify-content-center align-items-center">
+        <img src=" {{ image.image.url }}" alt="img" class="image" width="200" height="300">
+        {% endif %}
+      </div>
+
+
+      <br><br>
+      {% if image %}
+      <div class=" d-flex justify-content-center" style="margin-top:50px;">
+        <form action="output/" method="POST">
+          {% csrf_token %}
+          <button type="submit" class="btns btn-lg "> Detect</button>
+        </form>
+        {% endif %}
+      </div>
+
+    </section>
+
+
+  </div>
+  </div>
+</main>
+
+
+
+
+
+{% endblock %}

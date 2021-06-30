@@ -1,0 +1,325 @@
+
+
+html, body, header, .view{
+  height: 100%; 
+}
+
+
+@media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 950px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#intro {
+    
+    background-repeat:  no-repeat;
+     background-position:center center; 
+     background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.hr-light {
+    border-top: 1px solid #fff;
+
+}
+
+.h2-clasi{
+  
+  margin-top: 15rem;
+  font-family: Philosopher;
+ 
+}
+
+.text-content{
+
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0 auto;
+}
+
+.full-width {
+  box-sizing: unset;
+  margin: 0 -9999rem;
+  padding: 0 9999rem;
+  background: aquamarine;
+}
+
+.foot{
+  box-sizing: unset;
+  margin: 0 -9999rem;
+  padding: 0 9999rem;
+  color: #fff;
+  background: linear-gradient(to left bottom,  #7824ff,#044eec,  #4969f7,  #1a7cfd,  #49b2f7,#91c0f5);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.box{ 
+  box-sizing: border-box;
+  min-height: 700px;
+  height: auto;
+  width: auto;
+  margin: 15px;
+  background-color: #ffffff;
+  border-radius: .25rem;
+  padding: 20px;
+  
+ background-image: linear-gradient(rgb(113, 24, 230),rgb(211, 18, 236));
+}
+
+
+
+.view {
+
+    background: linear-gradient(to left bottom, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+
+  }
+
+  .btns {
+    color: rgb(144, 33, 167);
+    text-align: center;
+    height: 39px;
+    width: 100px;
+    border: 2px solid rgb(144, 33, 167);
+    padding-top: 1px;
+    border-radius: 10px;
+
+  }
+
+  .btns:hover {
+    background-color: rgb(144, 33, 167);
+    color: white;
+    border: 2px solid white;
+  }
+
+  .skinscale{
+    height: 150px;
+    width: 400px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+.body{
+	font-family: 'Gothic A1', sans-serif;
+	font-size:16px;
+	}
+	p{
+	color:#6c6c6f;
+	font-size:1em;
+	}
+	h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
+  .shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+.banner{
+	background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+	text-align: center;
+    color: #fff;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+}
+
+.btn-banner{
+	padding:5px 20px;
+	border-radius:10px;
+	font-weight:700;
+	line-height:1.5;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+}
+.text-intro{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:30px;
+}
+.banner-text{
+	padding:150px 0 150px 0;
+}
+.banner-heading{
+	font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+@media (max-width:768px){
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+	.banner-sub-heading{
+	font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+}
+ 
+
+
+  /* ending */
+
+  .header-font {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fd1506;
+  }
+  .fa-facebook{
+      color:#3b5998;
+  }
+  .fa-linkedin{
+      color:#0077B5;
+  }
+  .fa-twitter{
+      color:#4099FF;
+  }
+  .fa-google{
+      color:#d34836;
+  }
+  .bg-primary {
+   background-color: #000 !important;
+  }
+  
+  .bg-circle
+  {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 14px 4px;
+    color: #ececec;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .bg-circle-outline
+  {
+    width: 50px;
+    height: 50px;
+    color:smoke;
+    padding: 8px 2px;
+    border: 2px solid;
+    border-color: smoke;
+    border-radius: 50%;
+  }
+  
+  
+  .bg-circle a, a:hover, .media a:focus
+  {
+    text-decoration: none !important;
+    outline: none;
+    color: #ececec;
+  }
+  .bg-circle-outline a, a:hover, .media a:focus
+  {
+    text-decoration: none !important;
+    outline: none;
+    color: #ececec;
+  }
+  .footer {
+    background: #EDEFF1;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .footer img {
+    max-width: 100%;
+  }
+  .footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+  }
+  .footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+  }
+  .footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+  }
+  .footer a {
+    color: #78828D
+  }
